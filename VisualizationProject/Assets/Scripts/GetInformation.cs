@@ -31,11 +31,4 @@ public class GetInformation : MonoBehaviour
         //    Debug.Log("停留时间满足");
         //}
     }
-    void OnGUI()
-    {
-        if (isShowTip)
-        {
-            GUI.Label(new Rect(Input.mousePosition.x, Screen.height - Input.mousePosition.y, 100, 40), "afdasdfasdf");
-        }
-    }
 }
